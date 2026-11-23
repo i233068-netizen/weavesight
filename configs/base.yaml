@@ -1,0 +1,11 @@
+# Settings shared by all runs. Change a value here, not inside a notebook.
+seed: 42
+categories: [carpet, grid, leather, tile, wood]
+data_root: /content/datasets/MVTecAD
+train_batch_size: 8
+eval_batch_size: 8
+
+# Dinomaly (trial run: carpet, 1000 steps; final step count to be decided)
+dinomaly:
+  max_steps: 1000
+  results_dir: /content/drive/MyDrive/weavesight_results
