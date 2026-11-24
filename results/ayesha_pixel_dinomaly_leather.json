@@ -1,0 +1,14 @@
+{
+  "model": "dinomaly",
+  "category": "leather",
+  "map_size": [
+    392,
+    392
+  ],
+  "preprocessor_resize": "[448, 448]",
+  "preprocessor_crop": "[392, 392]",
+  "image_auroc": 1.0,
+  "pixel_auroc_raw": 0.9916653087535452,
+  "aupro_fpr0.3": 0.9788467288017273,
+  "mask_alignment": "masks resized and center-cropped like the model's images (nearest)"
+}

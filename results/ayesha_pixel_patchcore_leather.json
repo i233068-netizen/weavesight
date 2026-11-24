@@ -1,0 +1,14 @@
+{
+  "model": "patchcore",
+  "category": "leather",
+  "map_size": [
+    256,
+    256
+  ],
+  "preprocessor_resize": "[256, 256]",
+  "preprocessor_crop": "None",
+  "image_auroc": 1.0,
+  "pixel_auroc_raw": 0.9920455068034201,
+  "aupro_fpr0.3": 0.9747233390808105,
+  "mask_alignment": "masks resized and center-cropped like the model's images (nearest)"
+}

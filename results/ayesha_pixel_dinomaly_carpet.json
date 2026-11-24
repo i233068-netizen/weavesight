@@ -1,0 +1,14 @@
+{
+  "model": "dinomaly",
+  "category": "carpet",
+  "map_size": [
+    392,
+    392
+  ],
+  "preprocessor_resize": "[448, 448]",
+  "preprocessor_crop": "[392, 392]",
+  "image_auroc": 0.9995987158908507,
+  "pixel_auroc_raw": 0.9930909389167788,
+  "aupro_fpr0.3": 0.9790613055229187,
+  "mask_alignment": "masks resized and center-cropped like the model's images (nearest)"
+}

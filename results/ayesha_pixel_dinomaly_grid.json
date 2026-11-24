@@ -1,0 +1,14 @@
+{
+  "model": "dinomaly",
+  "category": "grid",
+  "map_size": [
+    392,
+    392
+  ],
+  "preprocessor_resize": "[448, 448]",
+  "preprocessor_crop": "[392, 392]",
+  "image_auroc": 1.0,
+  "pixel_auroc_raw": 0.994183525828227,
+  "aupro_fpr0.3": 0.9785884022712708,
+  "mask_alignment": "masks resized and center-cropped like the model's images (nearest)"
+}

@@ -1,0 +1,14 @@
+{
+  "model": "patchcore",
+  "category": "tile",
+  "map_size": [
+    256,
+    256
+  ],
+  "preprocessor_resize": "[256, 256]",
+  "preprocessor_crop": "None",
+  "image_auroc": 1.0,
+  "pixel_auroc_raw": 0.9553255345370164,
+  "aupro_fpr0.3": 0.8678991198539734,
+  "mask_alignment": "masks resized and center-cropped like the model's images (nearest)"
+}
