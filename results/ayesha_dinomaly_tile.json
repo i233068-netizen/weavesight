@@ -1,0 +1,15 @@
+{
+  "model": "dinomaly",
+  "category": "tile",
+  "seed": 42,
+  "steps": 1000,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 636,
+  "test_seconds": 11,
+  "metrics": {
+    "image_AUROC": 1.0,
+    "image_F1Score": 0.9940119981765747,
+    "pixel_AUROC": 0.9750066995620728,
+    "pixel_F1Score": 0.7309435606002808
+  }
+}

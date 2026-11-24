@@ -1,0 +1,15 @@
+{
+  "model": "dinomaly",
+  "category": "wood",
+  "seed": 42,
+  "steps": 1000,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 575,
+  "test_seconds": 10,
+  "metrics": {
+    "image_AUROC": 0.9982456564903259,
+    "image_F1Score": 0.9917355179786682,
+    "pixel_AUROC": 0.9766176342964172,
+    "pixel_F1Score": 0.6680504083633423
+  }
+}
