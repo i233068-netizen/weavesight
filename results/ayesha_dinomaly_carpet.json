@@ -1,0 +1,15 @@
+{
+  "model": "dinomaly",
+  "category": "carpet",
+  "seed": 42,
+  "steps": 1000,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 583,
+  "test_seconds": 12,
+  "metrics": {
+    "image_AUROC": 0.9995986819267273,
+    "image_F1Score": 0.9887640476226807,
+    "pixel_AUROC": 0.993061900138855,
+    "pixel_F1Score": 0.692750096321106
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model": "dinomaly",
+  "category": "leather",
+  "seed": 42,
+  "steps": 1000,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 615,
+  "test_seconds": 13,
+  "metrics": {
+    "image_AUROC": 1.0,
+    "image_F1Score": 0.994535505771637,
+    "pixel_AUROC": 0.9916926622390747,
+    "pixel_F1Score": 0.46856725215911865
+  }
+}

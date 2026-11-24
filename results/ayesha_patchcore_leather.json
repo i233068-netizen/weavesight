@@ -1,0 +1,15 @@
+{
+  "model": "patchcore",
+  "category": "leather",
+  "seed": 42,
+  "steps": null,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 64,
+  "test_seconds": 9,
+  "metrics": {
+    "image_AUROC": 1.0,
+    "image_F1Score": 0.994535505771637,
+    "pixel_AUROC": 0.9921691417694092,
+    "pixel_F1Score": 0.43876245617866516
+  }
+}

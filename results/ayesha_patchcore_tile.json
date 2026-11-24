@@ -1,0 +1,15 @@
+{
+  "model": "patchcore",
+  "category": "tile",
+  "seed": 42,
+  "steps": null,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 56,
+  "test_seconds": 8,
+  "metrics": {
+    "image_AUROC": 1.0,
+    "image_F1Score": 0.9940119981765747,
+    "pixel_AUROC": 0.9554948210716248,
+    "pixel_F1Score": 0.6193384528160095
+  }
+}

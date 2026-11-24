@@ -1,0 +1,15 @@
+{
+  "model": "patchcore",
+  "category": "carpet",
+  "seed": 42,
+  "steps": null,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 84,
+  "test_seconds": 8,
+  "metrics": {
+    "image_AUROC": 0.9863563776016235,
+    "image_F1Score": 0.9772727489471436,
+    "pixel_AUROC": 0.9905213713645935,
+    "pixel_F1Score": 0.601260781288147
+  }
+}

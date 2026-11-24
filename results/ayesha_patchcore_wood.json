@@ -1,0 +1,15 @@
+{
+  "model": "patchcore",
+  "category": "wood",
+  "seed": 42,
+  "steps": null,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 65,
+  "test_seconds": 7,
+  "metrics": {
+    "image_AUROC": 0.9877193570137024,
+    "image_F1Score": 0.9661017060279846,
+    "pixel_AUROC": 0.9310969114303589,
+    "pixel_F1Score": 0.47106149792671204
+  }
+}
