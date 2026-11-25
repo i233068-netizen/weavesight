@@ -1,0 +1,15 @@
+{
+  "model": "patchcore",
+  "category": "aitex_04",
+  "seed": 42,
+  "steps": null,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 50,
+  "test_seconds": 9,
+  "metrics": {
+    "image_AUROC": 0.8974056243896484,
+    "image_F1Score": 0.4137931168079376,
+    "pixel_AUROC": 0.9861555695533752,
+    "pixel_F1Score": 0.4982477128505707
+  }
+}

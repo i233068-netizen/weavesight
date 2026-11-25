@@ -1,0 +1,14 @@
+{
+  "model": "patchcore",
+  "category": "aitex_06",
+  "map_size": [
+    256,
+    256
+  ],
+  "preprocessor_resize": "[256, 256]",
+  "preprocessor_crop": "None",
+  "image_auroc": 0.8468720821661998,
+  "pixel_auroc_raw": 0.8893023990371512,
+  "aupro_fpr0.3": 0.6702395081520081,
+  "mask_alignment": "masks resized and center-cropped like the model's images (nearest)"
+}

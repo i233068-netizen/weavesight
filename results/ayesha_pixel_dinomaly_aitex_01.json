@@ -1,0 +1,14 @@
+{
+  "model": "dinomaly",
+  "category": "aitex_01",
+  "map_size": [
+    392,
+    392
+  ],
+  "preprocessor_resize": "[448, 448]",
+  "preprocessor_crop": "[392, 392]",
+  "image_auroc": 0.8939536340852131,
+  "pixel_auroc_raw": 0.9707077041052816,
+  "aupro_fpr0.3": 0.8758122324943542,
+  "mask_alignment": "masks resized and center-cropped like the model's images (nearest)"
+}

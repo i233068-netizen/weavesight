@@ -1,0 +1,15 @@
+{
+  "model": "dinomaly",
+  "category": "aitex_05",
+  "seed": 42,
+  "steps": 1000,
+  "split": "mvtec_seed42.csv",
+  "fit_seconds": 583,
+  "test_seconds": 5,
+  "metrics": {
+    "image_AUROC": 1.0,
+    "image_F1Score": 1.0,
+    "pixel_AUROC": 0.9997753500938416,
+    "pixel_F1Score": 0.23046940565109253
+  }
+}
