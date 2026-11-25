@@ -1,0 +1,4 @@
+threshold 0.09618 (fixed, P99 of val_good)
+all tiles              normal flagged 202/633 | defects caught 27/38 | image AUROC 0.6998
+inside the 10 strips   normal flagged 148/150 | defects caught 10/10 | image AUROC 0.9053
+outside the 10 strips  normal flagged  54/483 | defects caught 17/28 | image AUROC 0.7537

@@ -1,0 +1,47 @@
+{
+  "model": "dinomaly",
+  "category": "aitex_03",
+  "threshold": 0.09847349561750877,
+  "false_alarms_by_position": {
+    "t00": [
+      0,
+      35
+    ],
+    "t01-t14": [
+      36,
+      405
+    ],
+    "t15": [
+      1,
+      31
+    ],
+    "unknown": [
+      0,
+      0
+    ]
+  },
+  "false_alarms_by_strip_type": {
+    "defect-free strip": [
+      2,
+      64
+    ],
+    "defective strip": [
+      35,
+      407
+    ]
+  },
+  "defects_caught_by_area": {
+    "<0.1% of pixels": [
+      8,
+      14
+    ],
+    "0.1-1%": [
+      12,
+      20
+    ],
+    ">=1%": [
+      37,
+      55
+    ]
+  }
+}

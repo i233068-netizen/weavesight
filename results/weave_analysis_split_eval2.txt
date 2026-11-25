@@ -1,0 +1,5 @@
+normal test tiles outside the 10 strips, flagged/total at fixed P99 threshold 0.09618
+                              t00         t01         t02-t14     t15         total
+defect-free strip             2/4         0/4         0/52        0/4         2/64
+defective, matching weave     7/15        11/15       0/180       0/14        18/224
+defective, in-between weave   13/13       13/13       2/156       6/13        34/195

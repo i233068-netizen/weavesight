@@ -1,0 +1,68 @@
+/home/i233068/envs/weavesight/lib/python3.13/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/i233068/envs/weavesight/lib/python3.13/site-packages/anomalib/models/image/dinomaly/components/layers.py:22: FutureWarning: The anomalib.models.components.dinov2 package is deprecated and will be removed in a future release. Please use the timm-based feature extractor instead: anomalib.models.components.feature_extractors.TimmFeatureExtractor
+  from anomalib.models.components.dinov2.layers import Attention, DropPath, LayerScale, MemEffAttention
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+ckpt_path is not provided. Model weights will not be loaded.
+You are using a CUDA device ('NVIDIA RTX 4000 Ada Generation') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/home/i233068/envs/weavesight/lib/python3.13/site-packages/lightning/pytorch/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+/home/i233068/envs/weavesight/lib/python3.13/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:434: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=27` in the `DataLoader` to improve performance.
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64/64 0:00:03 • 0:00:00 17.17it/s  
+ckpt_path is not provided. Model weights will not be loaded.
+The following callbacks returned in `LightningModule.configure_callbacks` will override existing callbacks passed to Trainer: Evaluator, ImageVisualizer, PreProcessor
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 633/633 0:00:37 • 0:00:00 16.78it/s  
+ckpt_path is not provided. Model weights will not be loaded.
+The following callbacks returned in `LightningModule.configure_callbacks` will override existing callbacks passed to Trainer: Evaluator, ImageVisualizer, PreProcessor
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Predicting ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38/38 0:00:02 • 0:00:00 16.73it/s  
+saved /home/i233068/weavesight/results/ayesha_tilescores_dinomaly_aitex_02.json
+P99 threshold recomputed: 0.09618
+
+strip         group        tiles t03-t12 flagged | weave freq  angle  diff-from-144
+0003_000_02  defect_free  10   0 |  60.8    144      0
+0006_000_02  defect_free  10   0 |  60.8    144      0
+0010_006_02  FLAGGED10     9   9 |  49.6      9     45
+0011_000_02  defect_free  10   0 |  60.3    143      1
+0011_006_02  FLAGGED10     9   9 |  49.8    170     26
+0012_006_02  FLAGGED10     9   9 |  50.0    169     25
+0013_006_02  FLAGGED10     9   9 |  50.2    167     23
+0014_006_02  FLAGGED10     9   9 |  50.2    168     24
+0015_006_02  FLAGGED10     9   9 |  50.7    165     21
+0016_006_02  other_def     9   0 |  51.5    162     18
+0017_002_02  other_def     9   0 |  61.4    143      1
+0020_000_02  defect_free  10   0 |  60.8    144      0
+0022_019_02  other_def     9   0 |  54.6    154     10
+0023_019_02  other_def     9   0 |  52.6    159     15
+0024_019_02  other_def     9   0 |  54.1    155     11
+0025_019_02  other_def     9   0 |  52.9    158     14
+0026_019_02  other_def     9   0 |  53.3    157     13
+0027_019_02  other_def     9   0 |  54.6    154     10
+0028_019_02  other_def    10   0 |  52.6    159     15
+0029_019_02  other_def     9   0 |  54.6    154     10
+0030_019_02  FLAGGED10    10  10 |  61.4     37     73
+0031_019_02  other_def    10   0 |  60.2    145      1
+0032_019_02  other_def     9   0 |  60.2    144      0
+0033_019_02  other_def    10   0 |  60.8    143      1
+0034_019_02  other_def    10   0 |  60.8    144      0
+0035_019_02  other_def     9   0 |  60.2    144      0
+0036_019_02  other_def     9   0 |  60.8    144      0
+0037_019_02  other_def     8   0 |  60.5    144      0
+0038_019_02  other_def     9   0 |  60.8    145      1
+0039_019_02  other_def     9   0 |  61.4    143      1
+0040_019_02  other_def     9   0 |  60.2    145      1
+0041_019_02  other_def     9   0 |  60.8    144      0
+0042_019_02  other_def     9   0 |  60.8    144      0
+0068_023_02  FLAGGED10    10  10 |  60.8     37     73
+0069_023_02  FLAGGED10    10  10 |  60.8     37     73
+0070_023_02  FLAGGED10    10  10 |  60.4     37     73
+0085_030_02  other_def     9   0 |  53.3    157     13
+0086_030_02  other_def     9   0 |  51.9    162     18
+0087_030_02  other_def     9   0 |  54.1    155     11
+0088_030_02  other_def     9   0 |  51.9    161     17
+0098_019_02  other_def    10   0 |  60.2    145      1
+0099_019_02  other_def     9   0 |  60.8    144      0

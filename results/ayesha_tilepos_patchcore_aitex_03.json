@@ -1,0 +1,47 @@
+{
+  "model": "patchcore",
+  "category": "aitex_03",
+  "threshold": 25.956366062164307,
+  "false_alarms_by_position": {
+    "t00": [
+      0,
+      35
+    ],
+    "t01-t14": [
+      45,
+      405
+    ],
+    "t15": [
+      1,
+      31
+    ],
+    "unknown": [
+      0,
+      0
+    ]
+  },
+  "false_alarms_by_strip_type": {
+    "defect-free strip": [
+      2,
+      64
+    ],
+    "defective strip": [
+      44,
+      407
+    ]
+  },
+  "defects_caught_by_area": {
+    "<0.1% of pixels": [
+      6,
+      14
+    ],
+    "0.1-1%": [
+      14,
+      20
+    ],
+    ">=1%": [
+      24,
+      55
+    ]
+  }
+}

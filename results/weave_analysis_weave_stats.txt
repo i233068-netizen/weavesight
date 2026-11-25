@@ -1,0 +1,46 @@
+Positions t03-t12, test_good tiles only for test groups. Window: Hann; band 3-100 cycles/tile.
+train+val                          n=160 | freq cycles/tile p10/med/p90 60.0/60.8/61.6 | period px med 4.2 | angle mean 144 deg (R=1.00) | peak share med 0.120
+defect-free test strips            n= 40 | freq cycles/tile p10/med/p90 60.0/60.8/61.6 | period px med 4.2 | angle mean 144 deg (R=1.00) | peak share med 0.127
+10 flagged strips                  n= 94 | freq cycles/tile p10/med/p90 49.8/51.7/61.4 | period px med 5.0 | angle mean 10 deg (R=0.69) | peak share med 0.145
+other defective strips             n=256 | freq cycles/tile p10/med/p90 52.5/59.8/61.6 | period px med 4.3 | angle mean 150 deg (R=0.97) | peak share med 0.114
+
+per strip: flagged
+  0010_006_02 n= 9 freq med 49.6 angle 9 R=1.00
+  0011_006_02 n= 9 freq med 49.8 angle 170 R=1.00
+  0012_006_02 n= 9 freq med 50.0 angle 169 R=1.00
+  0013_006_02 n= 9 freq med 50.2 angle 167 R=1.00
+  0014_006_02 n= 9 freq med 50.2 angle 168 R=1.00
+  0015_006_02 n= 9 freq med 50.7 angle 165 R=1.00
+  0030_019_02 n=10 freq med 61.4 angle 37 R=1.00
+  0068_023_02 n=10 freq med 60.8 angle 37 R=1.00
+  0069_023_02 n=10 freq med 60.8 angle 37 R=1.00
+  0070_023_02 n=10 freq med 60.4 angle 37 R=1.00
+per strip: other_def
+  0016_006_02 n= 9 freq med 51.5 angle 162 R=1.00
+  0017_002_02 n= 9 freq med 61.4 angle 143 R=1.00
+  0022_019_02 n= 9 freq med 54.6 angle 154 R=1.00
+  0023_019_02 n= 9 freq med 52.6 angle 159 R=1.00
+  0024_019_02 n= 9 freq med 54.1 angle 155 R=1.00
+  0025_019_02 n= 9 freq med 52.9 angle 158 R=1.00
+  0026_019_02 n= 9 freq med 53.3 angle 157 R=1.00
+  0027_019_02 n= 9 freq med 54.6 angle 154 R=1.00
+  0028_019_02 n=10 freq med 52.6 angle 159 R=1.00
+  0029_019_02 n= 9 freq med 54.6 angle 154 R=1.00
+  0031_019_02 n=10 freq med 60.2 angle 145 R=1.00
+  0032_019_02 n= 9 freq med 60.2 angle 144 R=1.00
+  0033_019_02 n=10 freq med 60.8 angle 143 R=1.00
+  0034_019_02 n=10 freq med 60.8 angle 144 R=1.00
+  0035_019_02 n= 9 freq med 60.2 angle 144 R=1.00
+  0036_019_02 n= 9 freq med 60.8 angle 144 R=1.00
+  0037_019_02 n= 8 freq med 60.5 angle 144 R=1.00
+  0038_019_02 n= 9 freq med 60.8 angle 145 R=1.00
+  0039_019_02 n= 9 freq med 61.4 angle 143 R=1.00
+  0040_019_02 n= 9 freq med 60.2 angle 145 R=1.00
+  0041_019_02 n= 9 freq med 60.8 angle 144 R=1.00
+  0042_019_02 n= 9 freq med 60.8 angle 144 R=1.00
+  0085_030_02 n= 9 freq med 53.3 angle 157 R=1.00
+  0086_030_02 n= 9 freq med 51.9 angle 162 R=1.00
+  0087_030_02 n= 9 freq med 54.1 angle 155 R=1.00
+  0088_030_02 n= 9 freq med 51.9 angle 161 R=1.00
+  0098_019_02 n=10 freq med 60.2 angle 145 R=1.00
+  0099_019_02 n= 9 freq med 60.8 angle 144 R=1.00
