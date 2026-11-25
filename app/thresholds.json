@@ -1,0 +1,170 @@
+{
+  "dinomaly/carpet": {
+    "image_threshold": 0.10744945511221887,
+    "pixel_threshold": 0.09293539077043533,
+    "n_val_images": 28,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/grid": {
+    "image_threshold": 0.06906788796186447,
+    "pixel_threshold": 0.06776919960975647,
+    "n_val_images": 26,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/leather": {
+    "image_threshold": 0.09387695893645286,
+    "pixel_threshold": 0.0722389817237854,
+    "n_val_images": 24,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/tile": {
+    "image_threshold": 0.08672862708568574,
+    "pixel_threshold": 0.07962284237146378,
+    "n_val_images": 23,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/wood": {
+    "image_threshold": 0.09989618420600886,
+    "pixel_threshold": 0.08306474983692169,
+    "n_val_images": 25,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/aitex_00": {
+    "image_threshold": 0.13145645983517149,
+    "pixel_threshold": 0.08041732013225555,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/aitex_01": {
+    "image_threshold": 0.08432245247066018,
+    "pixel_threshold": 0.07505960762500763,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/aitex_02": {
+    "image_threshold": 0.09618481040000913,
+    "pixel_threshold": 0.07809736579656601,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/aitex_03": {
+    "image_threshold": 0.09847349561750877,
+    "pixel_threshold": 0.07303788512945175,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/aitex_04": {
+    "image_threshold": 0.11891048997640609,
+    "pixel_threshold": 0.10943186283111572,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/aitex_05": {
+    "image_threshold": 0.1266825823485851,
+    "pixel_threshold": 0.11824929714202881,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "dinomaly/aitex_06": {
+    "image_threshold": 0.14945459514856335,
+    "pixel_threshold": 0.1318446695804596,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/carpet": {
+    "image_threshold": 37.13743335723877,
+    "pixel_threshold": 30.508081436157227,
+    "n_val_images": 28,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/grid": {
+    "image_threshold": 31.786710739135742,
+    "pixel_threshold": 28.315216064453125,
+    "n_val_images": 26,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/leather": {
+    "image_threshold": 26.890149269104004,
+    "pixel_threshold": 25.00541114807129,
+    "n_val_images": 24,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/tile": {
+    "image_threshold": 36.11479370117188,
+    "pixel_threshold": 32.87267303466797,
+    "n_val_images": 23,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/wood": {
+    "image_threshold": 43.77035751342772,
+    "pixel_threshold": 34.1241455078125,
+    "n_val_images": 25,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/aitex_00": {
+    "image_threshold": 28.145807247161855,
+    "pixel_threshold": 24.57006072998047,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/aitex_01": {
+    "image_threshold": 29.971658134460448,
+    "pixel_threshold": 26.692705154418945,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/aitex_02": {
+    "image_threshold": 28.954570732116697,
+    "pixel_threshold": 24.834930419921875,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/aitex_03": {
+    "image_threshold": 25.956366062164307,
+    "pixel_threshold": 21.900054931640625,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/aitex_04": {
+    "image_threshold": 39.23870296478271,
+    "pixel_threshold": 34.933448791503906,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/aitex_05": {
+    "image_threshold": 36.8124494934082,
+    "pixel_threshold": 32.81486129760742,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "patchcore/aitex_06": {
+    "image_threshold": 45.34529987335204,
+    "pixel_threshold": 39.12572479248047,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  }
+}

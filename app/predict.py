@@ -72,7 +72,7 @@ def predict(image, model, category):
     if (ah, aw) == (rh, rw):
         canvas = am
     else:  # the model only sees the centre crop; the border stays at a low fill value
-        fill = min(float(am.min()), thr["pixel_threshold"])
+        fill = min(float(am.min()), 0.5 * thr["pixel_threshold"])
         canvas = torch.full((rh, rw), fill)
         top, left = (rh - ah) // 2, (rw - aw) // 2
         canvas[top:top + ah, left:left + aw] = am
@@ -83,5 +83,6 @@ def predict(image, model, category):
         "mask": heat > thr["pixel_threshold"],
         "score": score,
         "threshold": thr["image_threshold"],
+        "pixel_threshold": thr["pixel_threshold"],
         "verdict": "FAIL" if score > thr["image_threshold"] else "PASS",
     }

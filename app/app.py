@@ -25,9 +25,12 @@ def fit(img):
     return img.resize((SHOW_W, max(1, int(h * SHOW_W / w))))
 
 
-def heat_overlay(img, heat):
-    lo, hi = float(heat.min()), float(heat.max())
-    norm = (heat - lo) / (hi - lo + 1e-8)
+def heat_overlay(img, heat, pix_thr=None):
+    if pix_thr is None:  # stub mode: no fixed scale available
+        lo, hi = float(heat.min()), float(heat.max())
+        norm = (heat - lo) / (hi - lo + 1e-8)
+    else:  # fixed scale: 0 at half the mask threshold, 0.5 at the threshold, 1 at 1.5x
+        norm = np.clip((heat - 0.5 * pix_thr) / pix_thr, 0, 1)
     r = np.clip(norm * 2, 0, 1)
     g = np.clip(norm * 2 - 1, 0, 1)
     color = np.stack([r, g, np.zeros_like(r)], axis=-1) * 255
@@ -71,7 +74,7 @@ if uploaded is not None:
 
     a, b, c = st.columns(3)
     a.image(fit(image), caption="Original")
-    b.image(fit(heat_overlay(image, res["heatmap"])), caption="Heatmap overlay")
+    b.image(fit(heat_overlay(image, res["heatmap"], res.get("pixel_threshold"))), caption="Heatmap overlay")
     c.image(fit(mask_overlay(image, res["mask"])), caption="Predicted defect region")
 
     st.caption(
