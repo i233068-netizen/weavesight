@@ -1,0 +1,12 @@
+== 1,000 steps (main)
+image AUROC (raw): 1.0
+  P99_main                     threshold 0.08673 | normal flagged 0.030 | defects caught 1.000
+  val_max_sensitivity          threshold 0.08893 | normal flagged 0.000 | defects caught 1.000
+  mean_plus_3std_sensitivity   threshold 0.08676 | normal flagged 0.030 | defects caught 1.000
+pixel AUROC 0.9750 | AUPRO 0.9130
+== 5,000 steps (ablation)
+image AUROC (raw): 1.0
+  P99_main                     threshold 0.09173 | normal flagged 0.061 | defects caught 1.000
+  val_max_sensitivity          threshold 0.09250 | normal flagged 0.061 | defects caught 1.000
+  mean_plus_3std_sensitivity   threshold 0.09495 | normal flagged 0.030 | defects caught 1.000
+pixel AUROC 0.9761 | AUPRO 0.9179
