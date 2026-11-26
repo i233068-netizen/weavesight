@@ -1,0 +1,86 @@
+{
+  "cae/carpet": {
+    "image_threshold": 0.13448695212602615,
+    "pixel_threshold": 0.10427097231149673,
+    "n_val_images": 28,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/grid": {
+    "image_threshold": 0.12053094990551472,
+    "pixel_threshold": 0.06293448060750961,
+    "n_val_images": 26,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/leather": {
+    "image_threshold": 0.05059593301266432,
+    "pixel_threshold": 0.03235084190964699,
+    "n_val_images": 24,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/tile": {
+    "image_threshold": 0.2771025961637497,
+    "pixel_threshold": 0.19144156575202942,
+    "n_val_images": 23,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/wood": {
+    "image_threshold": 0.1255866467952728,
+    "pixel_threshold": 0.06986980140209198,
+    "n_val_images": 25,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/aitex_00": {
+    "image_threshold": 0.11150057747960086,
+    "pixel_threshold": 0.048096999526023865,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/aitex_01": {
+    "image_threshold": 0.09159514985978602,
+    "pixel_threshold": 0.06323093920946121,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/aitex_02": {
+    "image_threshold": 0.6522894519567488,
+    "pixel_threshold": 0.4460211992263794,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/aitex_03": {
+    "image_threshold": 0.26635336607694626,
+    "pixel_threshold": 0.07519514113664627,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/aitex_04": {
+    "image_threshold": 0.29977182179689404,
+    "pixel_threshold": 0.24511778354644775,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/aitex_05": {
+    "image_threshold": 0.10122920922935,
+    "pixel_threshold": 0.06203653663396835,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  },
+  "cae/aitex_06": {
+    "image_threshold": 0.2884915956854819,
+    "pixel_threshold": 0.17762425541877747,
+    "n_val_images": 64,
+    "image_rule": "99th percentile of raw val_good image scores",
+    "pixel_rule": "99.9th percentile of all raw val_good pixel values"
+  }
+}
