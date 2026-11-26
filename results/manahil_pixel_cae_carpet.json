@@ -1,0 +1,13 @@
+{
+  "model": "cae",
+  "category": "carpet",
+  "map_size": [
+    256,
+    256
+  ],
+  "image_auroc": 0.663322632423756,
+  "pixel_auroc_raw": 0.8701881335261323,
+  "aupro_fpr0.3": 0.6071114540100098,
+  "pixel_threshold_p99.9_val": 0.10427097231149673,
+  "mask_alignment": "masks resized to 256x256 (nearest), same size as images; no crop"
+}

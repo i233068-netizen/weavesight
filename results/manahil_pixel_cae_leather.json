@@ -1,0 +1,13 @@
+{
+  "model": "cae",
+  "category": "leather",
+  "map_size": [
+    256,
+    256
+  ],
+  "image_auroc": 0.850883152173913,
+  "pixel_auroc_raw": 0.9886364442116522,
+  "aupro_fpr0.3": 0.9527829885482788,
+  "pixel_threshold_p99.9_val": 0.03235084190964699,
+  "mask_alignment": "masks resized to 256x256 (nearest), same size as images; no crop"
+}

@@ -1,0 +1,11 @@
+{
+  "model": "cae",
+  "category": "carpet",
+  "device": "NVIDIA RTX 4000 Ada Generation",
+  "n_images": 20,
+  "warmup": 5,
+  "timed_runs": 50,
+  "first_call_ms": 268.4,
+  "median_ms": 9.0,
+  "p95_ms": 10.6
+}

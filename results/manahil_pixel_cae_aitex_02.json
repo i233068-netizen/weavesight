@@ -1,0 +1,13 @@
+{
+  "model": "cae",
+  "category": "aitex_02",
+  "map_size": [
+    256,
+    256
+  ],
+  "image_auroc": 0.6129126132867715,
+  "pixel_auroc_raw": 0.8455162424166158,
+  "aupro_fpr0.3": 0.5317447185516357,
+  "pixel_threshold_p99.9_val": 0.4460211992263794,
+  "mask_alignment": "masks resized to 256x256 (nearest), same size as images; no crop"
+}

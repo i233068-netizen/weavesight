@@ -1,0 +1,42 @@
+
+===== CAE aitex_00 (POST-HOC) P99 threshold 0.1115 =====
+-- normal test tiles flagged, by strip type
+  defect-free strip: 1/64 (1.6%)
+  defective strip: 15/103 (14.6%)
+-- by tile position: normal flagged | defects caught
+  t00: 1/11 (9.1%) | 0/0
+  t01-t14: 14/147 (9.5%) | 1/7 (14.3%)
+  t15: 1/9 (11.1%) | 0/2 (0.0%)
+-- strips with most false alarms: 0062 13/14, 0001 1/15, 0002 1/15, 0005 1/16
+-- defects caught by size (terciles of mask pixels)
+  small (45-106 px): 1/3 (33.3%)
+  medium (358-438 px): 0/3 (0.0%)
+  large (473-1315 px): 0/3 (0.0%)
+
+===== CAE aitex_04 (POST-HOC) P99 threshold 0.2998 =====
+-- normal test tiles flagged, by strip type
+  defect-free strip: 1/64 (1.6%)
+  defective strip: 3/148 (2.0%)
+-- by tile position: normal flagged | defects caught
+  t00: 0/14 (0.0%) | 0/0
+  t01-t14: 4/184 (2.2%) | 0/12 (0.0%)
+  t15: 0/14 (0.0%) | 0/0
+-- strips with most false alarms: 0018 1/16, 0047 1/15, 0083 1/14, 0084 1/15
+-- defects caught by size (terciles of mask pixels)
+  small (18-45 px): 0/4 (0.0%)
+  medium (46-93 px): 0/4 (0.0%)
+  large (136-2227 px): 0/4 (0.0%)
+
+===== CAE aitex_06 (POST-HOC) P99 threshold 0.2885 =====
+-- normal test tiles flagged, by strip type
+  defect-free strip: 0/64 (0.0%)
+  defective strip: 0/89 (0.0%)
+-- by tile position: normal flagged | defects caught
+  t00: 0/10 (0.0%) | 0/0
+  t01-t14: 0/133 (0.0%) | 0/7 (0.0%)
+  t15: 0/10 (0.0%) | 0/0
+-- strips with most false alarms: 
+-- defects caught by size (terciles of mask pixels)
+  small (22-22 px): 0/2 (0.0%)
+  medium (28-33 px): 0/3 (0.0%)
+  large (231-326 px): 0/2 (0.0%)
