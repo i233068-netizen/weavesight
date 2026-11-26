@@ -5,7 +5,7 @@
   "n_images": 20,
   "warmup": 5,
   "timed_runs": 50,
-  "first_call_ms": 4180.1,
-  "median_ms": 61.6,
-  "p95_ms": 69.4
+  "first_call_ms": 5529.2,
+  "median_ms": 58.4,
+  "p95_ms": 83.8
 }
