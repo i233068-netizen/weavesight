@@ -44,6 +44,9 @@ def _hw(s):
 
 def predict(image, model, category):
     name = model.lower()
+    if name == "cae":
+        from predict_cae import predict_cae
+        return predict_cae(image, category)
     if name not in ("dinomaly", "patchcore"):
         raise NotImplementedError(f"{model} is not connected yet")
     thr = _thresholds().get(f"{name}/{category}")
